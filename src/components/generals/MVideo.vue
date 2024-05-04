@@ -1,16 +1,10 @@
 <script setup>
-import { defineProps } from 'vue';
-const props = defineProps({
-    urlvideo:{
-        type:String,
-        required:true
-    }
-});
-console.log('-',props.urlvideo)
+defineProps(['urlvideo']);
 </script>
 
 <template>
-        <video :src="props.urlvideo" muted autoplay loop ></video>
+        <video :src="urlvideo" muted autoplay loop ></video>
+        <h5>{{ urlvideo }}</h5>
 </template>
 
 <style scoped>

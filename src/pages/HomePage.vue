@@ -4,6 +4,9 @@ import Hero from '../components/uniques/Hero.vue'
 import Cards from '../components/uniques/Cards.vue'
 import MVideo from '../components/generals/MVideo.vue'
 
+
+
+
 </script>
 
 <template>
@@ -11,7 +14,6 @@ import MVideo from '../components/generals/MVideo.vue'
     <Hero/>
     <Cards/>
     <MVideo urlvideo="../assets/axel.mp4" />
-    <video src="../assets/axel.mp4" muted autoplay loop ></video>
 </template>
 
 <style scoped>
