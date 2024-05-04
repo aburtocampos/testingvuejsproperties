@@ -13,7 +13,7 @@ const videoUrl = '/assets/pexels.mp4';
     <Navbar/>
     <Hero/>
     <Cards/>
-    <VideoComponent  videoUrl="/assets/pexels.mp4" />
+    <VideoComponent  videoUrl="/src/assets/pexels.mp4" />
 </template>
 
 <style scoped>
