@@ -11,6 +11,7 @@ import MVideo from '../components/generals/MVideo.vue'
     <Hero/>
     <Cards/>
     <MVideo urlvideo="../assets/axel.mp4" />
+    <video src="../assets/axel.mp4" muted autoplay loop ></video>
 </template>
 
 <style scoped>
