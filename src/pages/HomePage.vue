@@ -10,7 +10,7 @@ import MVideo from '../components/generals/MVideo.vue'
     <Navbar/>
     <Hero/>
     <Cards/>
-    <MVideo urlvideo="../src/assets/videos/axel.mp4" />
+    <MVideo urlvideo="../assets/axel.mp4" />
 </template>
 
 <style scoped>
