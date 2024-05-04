@@ -13,7 +13,7 @@ import VideoComponent  from '../components/generals/VideoComponent.vue'
     <Navbar/>
     <Hero/>
     <Cards/>
-    <VideoComponent  videoUrl="/src/assets/pexels.mp4" />
+    <VideoComponent  videoUrl="/src/assets/videos/pexels.mp4" />
 </template>
 
 <style scoped>

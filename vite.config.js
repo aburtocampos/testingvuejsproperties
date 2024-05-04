@@ -8,12 +8,12 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      find: "@",
-      replacement: fileURLToPath(new URL("./src", import.meta.url)),
+      '@': fileURLToPath(new URL('./src', import.meta.url))
     },
     build: {
+      assetsInclude: ['src/assets/**'],
       outDir: "dist",
-      assetsDir: "assets", // Aquí especificamos que los activos se copien directamente en la carpeta dist
+      assetsDir: ".", // Aquí especificamos que los activos se copien directamente en la carpeta dist
       rollupOptions: {
         input: {
           main: "/src/main.js",
