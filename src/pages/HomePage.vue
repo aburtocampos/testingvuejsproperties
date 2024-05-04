@@ -2,9 +2,9 @@
 import Navbar from '../components/generals/Navbar.vue'
 import Hero from '../components/uniques/Hero.vue'
 import Cards from '../components/uniques/Cards.vue'
-import MVideo from '../components/generals/MVideo.vue'
+import VideoComponent  from '../components/generals/VideoComponent.vue'
 
-
+const videoUrl = '/assets/pexels.mp4';
 
 
 </script>
@@ -13,7 +13,7 @@ import MVideo from '../components/generals/MVideo.vue'
     <Navbar/>
     <Hero/>
     <Cards/>
-    <MVideo urlvideo="../assets/axel.mp4" />
+    <VideoComponent  videoUrl="/assets/pexels.mp4" />
 </template>
 
 <style scoped>
