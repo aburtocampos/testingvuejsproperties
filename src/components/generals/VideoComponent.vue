@@ -1,11 +1,17 @@
 <script setup>
-defineProps(['videoUrl']);
+const props = defineProps({
+    videoSrc: {
+      type: String,
+      required: true
+    }
+})
+
 
 </script>
 
 <template>
-        <video :src="videoUrl" muted autoplay loop ></video>
-        <h5>{{ videoUrl }}</h5>
+        <video :src="videoSrc" muted autoplay loop type="video/mp4" ></video>
+        <h5>{{ videoSrc }}</h5>
 </template>
 
 <style scoped>

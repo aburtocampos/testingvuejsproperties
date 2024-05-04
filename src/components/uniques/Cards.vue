@@ -8,7 +8,7 @@
     
         <div class="card">
             <div class="card-body p-0">
-            <img src="../../assets/images/card-1.webp" alt="..." class="img-fluid"/>
+            <img src="@/assets/images/card-1.webp" alt="..." class="img-fluid"/>
             <h5 class="card-title">desarrollo de e-commerce y websites informativos</h5>
             <p class="card-text">Construye tu negocio y comienza a facturar con una integración 360.</p>
             <button type="button" class="btn btn-outline-light btn-vermas">Ver más</button>
@@ -18,7 +18,7 @@
    
         <div class="card">
             <div class="card-body p-0">
-            <img src="../../assets/images/card-2.webp" alt="..." class="img-fluid"/>
+            <img src="@/assets/images/card-2.webp" alt="..." class="img-fluid"/>
             <h5 class="card-title">desarrollo de e-commerce y websites informativos</h5>
             <p class="card-text">Construye tu negocio y comienza a facturar con una integración 360.</p>
             <button type="button" class="btn btn-outline-light btn-vermas">Ver más</button>
@@ -27,7 +27,7 @@
     
         <div class="card">
             <div class="card-body p-0">
-            <img src="../../assets/images/card-3.webp" alt="..." class="img-fluid"/>
+            <img src="@/assets/images/card-3.webp" alt="..." class="img-fluid"/>
             <h5 class="card-title">desarrollo de e-commerce y websites informativos</h5>
             <p class="card-text">Construye tu negocio y comienza a facturar con una integración 360.</p>
             <button type="button" class="btn btn-outline-light btn-vermas">Ver más</button>
@@ -36,7 +36,7 @@
     
         <div class="card">
             <div class="card-body p-0">
-            <img src="../../assets/images/card-4.webp" alt="..." class="img-fluid"/>
+            <img src="@/assets/images/card-4.webp" alt="..." class="img-fluid"/>
             <h5 class="card-title">desarrollo de e-commerce y websites informativos</h5>
             <p class="card-text">Construye tu negocio y comienza a facturar con una integración 360.</p>
             <button type="button" class="btn btn-outline-light btn-vermas">Ver más</button>
@@ -46,7 +46,7 @@
   
         <div class="card">
             <div class="card-body p-0">
-            <img src="../../assets/images/card-5.webp" alt="..." class="img-fluid"/>
+            <img src="@/assets/images/card-5.webp" alt="..." class="img-fluid"/>
             <h5 class="card-title">desarrollo de e-commerce y websites informativos</h5>
             <p class="card-text">Construye tu negocio y comienza a facturar con una integración 360.</p>
             <button type="button" class="btn btn-outline-light btn-vermas">Ver más</button>

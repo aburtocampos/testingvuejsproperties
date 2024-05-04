@@ -2,10 +2,9 @@
 import Navbar from '../components/generals/Navbar.vue'
 import Hero from '../components/uniques/Hero.vue'
 import Cards from '../components/uniques/Cards.vue'
-import VideoComponent  from '../components/generals/VideoComponent.vue'
+import VideoComponent  from '@/components/generals/VideoComponent.vue'
 
-
-
+const videoPath = '@/assets/videos/axel.mp4'
 
 </script>
 
@@ -13,8 +12,10 @@ import VideoComponent  from '../components/generals/VideoComponent.vue'
     <Navbar/>
     <Hero/>
     <Cards/>
-    <VideoComponent  videoUrl="../assets/images/pexels.mp4" />
-    <img src="../assets/images/ingles-de-una.png" class="img-fluid"/>
+   
+    <VideoComponent :videoSrc="videoPath"  />
+    <img src="@/assets/images/alltruismo.png" class="img-fluid"/>
+    <video src="@/assets/videos/axel.mp4" muted autoplay loop type="video/mp4" ></video>
 </template>
 
 <style scoped>
