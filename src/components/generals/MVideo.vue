@@ -1,10 +1,11 @@
 <script setup>
+import { defineProps } from 'vue';
 const props = defineProps({
     urlvideo:{
         type:String,
         required:true
     }
-})
+});
 console.log('-',props.urlvideo)
 </script>
 
