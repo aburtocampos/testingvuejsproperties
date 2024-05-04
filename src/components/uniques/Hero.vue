@@ -1,8 +1,9 @@
 <script >
 import { register } from 'swiper/element/bundle';
-// register Swiper custom elements
+
+
 register();
-// swiper element
+
 
 </script>
 
@@ -41,7 +42,8 @@ register();
   
       </swiper-container>
     </div>
-<video controls src="../../assets/videos/Axel_-_Amo_Videoclip.mp4" muted autoplay ></video>
+
+
 
 </template>
 
