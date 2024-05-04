@@ -14,6 +14,7 @@ import VideoComponent  from '../components/generals/VideoComponent.vue'
     <Hero/>
     <Cards/>
     <VideoComponent  videoUrl="../assets/images/pexels.mp4" />
+    <img src="../assets/images/ingles-de-una.png" class="img-fluid"/>
 </template>
 
 <style scoped>
