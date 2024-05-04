@@ -4,7 +4,7 @@ import Hero from '../components/uniques/Hero.vue'
 import Cards from '../components/uniques/Cards.vue'
 import VideoComponent  from '../components/generals/VideoComponent.vue'
 
-const videoUrl = '/assets/pexels.mp4';
+
 
 
 </script>
